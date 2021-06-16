@@ -12,5 +12,7 @@ namespace InventoryApp.Data
             : base(options)
         {
         }
+
+        public DbSet<InventoryApp.Models.Item> Item { get; set; }
     }
 }
